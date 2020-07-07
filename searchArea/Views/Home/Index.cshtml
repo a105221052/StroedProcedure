@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "區域個數查詢";
+}
+
+<form>
+    <select id="location" style="margin: 20px 15px 25px 0px; width:100px; height:30px; ">
+        <option>台北市</option>
+        <option>基隆市</option>
+        <option>新北市</option>
+        <option>宜蘭縣</option>
+        <option>新竹縣</option>
+        <option>桃園縣</option>
+        <option>苗栗縣</option>
+        <option>台中市</option>
+        <option>彰化縣</option>
+        <option>南投縣</option>
+        <option>雲林縣</option>
+        <option>嘉義縣</option>
+        <option>台南市</option>
+        <option>高雄市</option>
+        <option>南海諸島</option>
+        <option>澎湖縣</option>
+        <option>屏東縣</option>
+        <option>台東縣</option>
+        <option>花蓮縣</option>
+        <option>金門縣</option>
+        <option>連江縣</option>
+    </select>
+    <input class="btn btn-light" onclick="Search()" type="button" value="查詢">
+    <div id="resultInfo" style="display:none;">
+        查詢結果 : <span id="amount"></span> 個
+    </div>
+</form>
+
